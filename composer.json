@@ -1,0 +1,21 @@
+{
+    "name": "quaxis/hello",
+    "description": "Quaxis example package.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yusuf Özdemir",
+            "email": "yusuf@ozdemir.be"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Quaxis\\Hello\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
